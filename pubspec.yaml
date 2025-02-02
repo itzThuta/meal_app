@@ -38,6 +38,7 @@ dependencies:
   flutter_riverpod: ^2.4.5
   google_fonts: ^6.1.0
   transparent_image: ^2.0.1
+  flutter_launcher_icons: ^0.14.3
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:meals/screens/tabs.dart';
-import 'package:meals/widgets/main_drawer.dart';
 
 enum Filter {
   glutenFree,
@@ -70,13 +68,13 @@ class _FiltersScreenState extends State<FiltersScreen> {
               title: Text(
                 'Gluten_Free',
                 style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
               ),
               subtitle: Text(
                 'Only include gluten-free meals',
                 style: Theme.of(context).textTheme.labelMedium!.copyWith(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
               ),
               activeColor: Theme.of(context).colorScheme.tertiary,
@@ -92,13 +90,13 @@ class _FiltersScreenState extends State<FiltersScreen> {
               title: Text(
                 'Lactose_Free',
                 style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
               ),
               subtitle: Text(
                 'Only include lactose-free meals',
                 style: Theme.of(context).textTheme.labelMedium!.copyWith(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
               ),
               activeColor: Theme.of(context).colorScheme.tertiary,
@@ -114,13 +112,13 @@ class _FiltersScreenState extends State<FiltersScreen> {
               title: Text(
                 'Vegeterian',
                 style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
               ),
               subtitle: Text(
                 'Only include vegeterian meals',
                 style: Theme.of(context).textTheme.labelMedium!.copyWith(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
               ),
               activeColor: Theme.of(context).colorScheme.tertiary,
@@ -136,13 +134,13 @@ class _FiltersScreenState extends State<FiltersScreen> {
               title: Text(
                 'Vegen',
                 style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
               ),
               subtitle: Text(
                 'Only include vegen meals',
                 style: Theme.of(context).textTheme.labelMedium!.copyWith(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
               ),
               activeColor: Theme.of(context).colorScheme.tertiary,
